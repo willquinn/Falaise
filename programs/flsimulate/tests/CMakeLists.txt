@@ -210,4 +210,4 @@ add_test(NAME flsimulate-script-xwall_gveto_pmt_glass-run
           -d "xwallgvetopmtglassvariant@${CMAKE_CURRENT_SOURCE_DIR}/"
           -c "${CMAKE_CURRENT_SOURCE_DIR}/flsimulate-script-xwall_gveto_pmt_glass.conf" -o "${CMAKE_CURRENT_BINARY_DIR}/flsimulate-script-xwall_gveto_pmt_glass.brio"
   )
-set_falaise_test_environment(flsimulate-script-Bi207_source_calibration-run)
+set_falaise_test_environment(flsimulate-script-xwall_gveto_pmt_glass-run)
